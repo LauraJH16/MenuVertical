@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Dosis|Nunito|Open+Sans|Raleway');
+
+nav {
+    width: 350px;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color:black;
+}
+
+h1 {
+    font-size: 45px;
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    padding-left: 5px;
+    list-style: none;
+    margin: 0;
+    line-height: 30px
+}
+
+li {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 350px;
+    height: 30px;
+    border-left: 4px solid black;
+    font-size: 25px;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    background-color: #f8f8f8;
+}
+
+li:hover {
+    background-color: #e0e0e0;
+    border-left: 4px solid #ffc107;
+}
+
+li:hover a {
+    color: #ffc107;
+}
+
+.first {
+    background-color: #ffc107;
+}
+
+li:active{
+    background-color: #333;
+    border-left: 4px solid #ffc107;
+}
+
+.first:active a {
+    color:white;
+}
+
+span {
+    margin-right:20px;
+    margin-left: -10px;
+    font-size:28px;
+}
